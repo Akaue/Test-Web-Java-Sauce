@@ -1,0 +1,160 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Que estou na pagina de login",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-05T17:12:36.999Z",
+        "line": 8,
+        "name": "Realizar login com usu�rio incorreto.",
+        "description": "",
+        "id": "logar-e-fazer-compras;realizar-login-com-usu�rio-incorreto.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Eu insiro dados errados",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Eu nao devo consegui acessar",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Que estou na pagina de login",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-05T17:12:37.518Z",
+        "line": 12,
+        "name": "validar que todos os usu�rios est�o na p�gina de home.",
+        "description": "",
+        "id": "logar-e-fazer-compras;validar-que-todos-os-usu�rios-est�o-na-p�gina-de-home.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Eu valido se todos os usuarios aparecem na pagina",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Que estou na pagina de login",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-05T17:12:37.547Z",
+        "line": 15,
+        "name": "Pegar na p�gina de login todos os usu�rios.",
+        "description": "",
+        "id": "logar-e-fazer-compras;pegar-na-p�gina-de-login-todos-os-usu�rios.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Eu capturo os nomes de todos os usuarios que aparecem na pagina",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Logar e fazer compras",
+    "description": "     Como um cliente quero me logar para comprar roupas e outros utens�lios",
+    "id": "logar-e-fazer-compras",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/LoginSauce01.feature",
+    "tags": [
+      {
+        "name": "@Test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
